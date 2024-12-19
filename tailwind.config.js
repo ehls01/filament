@@ -8,6 +8,7 @@ export default {
         './resources/**/*.blade.php',
         './resources/**/*.js',
         './resources/**/*.vue',
+        './vendor/kanuni/filament-cards/resources/**/*.blade.php',
     ],
     theme: {
         extend: {

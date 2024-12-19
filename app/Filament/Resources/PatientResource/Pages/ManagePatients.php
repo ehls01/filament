@@ -4,9 +4,9 @@ namespace App\Filament\Resources\PatientResource\Pages;
 
 use App\Filament\Resources\PatientResource;
 use Filament\Actions;
-use Filament\Resources\Pages\ListRecords;
+use Filament\Resources\Pages\ManageRecords;
 
-class ListPatients extends ListRecords
+class ManagePatients extends ManageRecords
 {
     protected static string $resource = PatientResource::class;
 
